@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+margin-left: 10px;
+margin-right: 10px;
+background-size: 100%;
+text-align:center;
+color:#f0ffff;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+height:180px;
+}
+nav
+{
+text-align: left;
+
+
+border-radius: 3px;
+
+}
+a
+{
+    color:#0000ff;
+    margin: 10px;
+}
+
+
+h2{
+    color: white;
+    text-decoration: solid ;
+    text-align: center;
+    font-size: 40px;
+}
+nav select
+{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(225,225,225,0.3);   
+    margin:0 auto;
+    padding: 5px;
+    color: red;
+}
+nav a{
+    display: inline-block;
+    width:20%;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(225,225,225,0.3);   
+    margin:0 auto;
+    padding: 5px;
+    text-align: center;
+    margin-right:20px;
+    margin-left: 110px;
+    margin-top: 10px;
+    transition-duration: .1s;
+    transition-delay:.5s;
+    color: red;
+    border: 1px solid black;
+    box-shadow: red;
+}
+nav a:hover{
+    background-color: #ffffff;
+    transform: rotate(360deg);
+
+}
+nav a:active{
+    border:3px solid #000000;
+}
+nav a:focus{
+    background-color: #ffffff;
+    transform: rotate(360deg);
+}main img{
+    
+   display: block;
+   width:80%;
+   
+   border:3px solid #000000;
+   margin-right: 10px;
+   margin-left: 10px;
+   
+   
+}
+aside{
+    width:25%;
+    height:200%;
+    margin-bottom: 0%;
+    
+    
+    display:inline-block;
+    
+    margin-right:2%;
+    float: left;
+ background-color:#808000;
+ 
+   
+}
+.sample{
+    width: 25%;
+    background-color: #000000;
+    float: right;
+}
+p{
+    font-size: 150%;
+    color:white;
+}
+th{
+   background-color: rgba(128,128,0,0.8);
+   padding: 8px;
+  
+   border-bottom: 2px solid #7fff00;
+   color: #ffffff;
+    
+}
+tr{
+    background-color: rgba(128,128,0,0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    color:#696969;
+    
+}
+td{
+    padding: 15px;
+}
+table{
+    margin: 0 auto;
+    
+}
+tr:last-child>td:first-child {
+	
+	border-radius: 0 0 0 25px;	
+}
+
+tr:last-child>td:last-child{
+	
+	border-radius: 0 0 25px 0;	
+}
+tr:first-child>th:first-child{
+    border-radius: 25px 0 0 0;
+}
+tr:first-child>th:last-child{
+    border-radius: 0 25px 0 0;
+}
+.bkimage{
+    background-image: url(https://th.bing.com/th/id/R.0f11e053e7f24fbe25617177bcccbe7c?rik=xGSqRL%2fRsbmhiw&riu=http%3a%2f%2fwww.crictracker.com%2fwp-content%2fuploads%2f2015%2f05%2fIPL-Trophy.jpg&ehk=nYiPV98XEtRTwPI5MuCfMyd3wiSDgaEobKzz29%2fYm%2fw%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    display:inline-block ;
+    margin-left: -2.5em;
+    font-size: 40px;
+}
+.icon{
+    width: 100px;
+    float: left;
+    margin-top: 0.5px;
+     
+}
