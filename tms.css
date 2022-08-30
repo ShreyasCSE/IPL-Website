@@ -1,0 +1,69 @@
+.delhi{
+    width:33%;
+}
+header{
+    font-size: 30px;
+    text-shadow: 1px;
+    color: black;
+
+}
+header a{
+    text-align: center;
+}
+.mum{
+    width: 33%;
+    
+}
+.csk{
+    width: 33%;
+    height: 250px;
+}
+.raj{
+    width: 33%;
+    height: 250px;
+}
+.rcb{
+    width: 33%;
+    height: 250px;
+    padding-left: 1px;
+}
+.kkr{
+    width: 33%;
+    height: 250px;
+}
+.pun{
+    width: 33%;
+    height: 250px;
+    padding-top: 15px;
+}
+.hyd{
+    width: 33%;
+    height: 250px;
+    padding-top: 15px;
+    padding-left: 7px;
+}
+.guj{
+    width: 30%;
+    height: 250px;
+    padding-left: 15px;
+}
+.luck{
+    align-items: center;
+    height: 275px;
+    padding-left: 420px;
+}
+.icon{
+    width: 100px;
+    float: left;
+    margin-top: 0.5px;
+     
+}
+.right{
+    padding-left: 540px;
+    padding-top: 37px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:black;
+}
